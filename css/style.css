@@ -8,7 +8,7 @@ body {
 
 #header > h1 {
     margin: 0;
-    text-align: center;
+    text-align: right;
     font-family: 'Lato', sans-serif;
     position: relative;
     transform: translateY(50%)
@@ -34,6 +34,7 @@ body {
 #nav {
     background-color: #004fb2;
     min-height: 30px;
+    display: flex;
 }
 
 #nav > ul > button {
@@ -140,16 +141,13 @@ footer > h1 {
     text-align: center;
 }
 
-#latest-work {
+#featured-work {
     list-style-type: none;
+    background-image: url(img/skyline.jpg0);
+    
 }
 
-#latest-work > li {
-   
-    
-   
-   
-}
+
 
 #latest-work >li:before {
     content: '';
@@ -165,21 +163,22 @@ footer > h1 {
 
 #favorite-sites {
     background-image: url(img/bg.jpeg);
-    border-top: 5px #b2790f solid;
+    border-top: 5px #004fb2 solid;
     border-bottom: 5px #004fb2 solid;
     text-align: center;
 }
 
 #favorite-sites ul {
-    list-style-type: none;
+    list-style-type:none;
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     margin: 0;
     padding: 40px;
+    
 }
 
 #favorite-sites img {
-    max-width: 200px;
+    max-width: 400px;
 }
 
 #main-content-wrapper .image-content {
@@ -224,3 +223,8 @@ footer > h1 {
 #favorite-sites > .row > .col-md-4 > img {
     margin: 0 auto;
 } 
+
+#header > img {
+    float:right;
+    border-radius: 200px;
+}
