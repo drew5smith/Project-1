@@ -151,6 +151,7 @@ footer > h1 {
     list-style-type: none;
     background-image: url();
     
+    
 }
 
 
@@ -169,9 +170,10 @@ footer > h1 {
 
 #favorite-sites {
     background-image: url();
-    border-top: 15px #004fb2 solid;
-    border-bottom: 15px #004fb2 solid;
+
+    
     text-align: center;
+    display: block;
      
     
     
@@ -184,6 +186,7 @@ footer > h1 {
     margin: 0;
     padding: 40px;
     max-width: 400px;
+    display: block;
     
 }
 
@@ -193,6 +196,7 @@ footer > h1 {
     border-bottom: 5px;
     max-width: 400px;
     text-align: center;
+    display: block;
 }
 
 #main-content-wrapper .image-content {
@@ -222,7 +226,10 @@ footer > h1 {
     max-width: 960px;
     margin: 0 auto;
 }
-
+.image-content {
+    margin: auto;
+    display: flex;
+}
 
 /*Bootsrap Related*/
 
@@ -236,7 +243,10 @@ footer > h1 {
 
 #favorite-sites > .row > .col-md-4 > img {
     margin: 0 auto;
-    text-align: center:
+    text-align: center;
+    display: block;
+    position: relative;
+
 } 
 
 #header > img {
