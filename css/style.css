@@ -1,13 +1,13 @@
-body {
-    background-color:none;
+ body {
+    background-color: none;
 }
 
-#header {
+ #header {
     background-color: white;
     
 }
 
-#header > h1 {
+ #header > h1 {
     margin: 0;
     text-align: right;
     font-family: 'Lato', sans-serif;
@@ -18,30 +18,30 @@ body {
     
 }
 
-#nav {
+ #nav {
     width: 100;
     background-color: aqua;
 }
 
-.menu {
+ .menu {
     display: flex;
     background: #9fc9ef;
     justify-content: space-around;
     list-style-type: none;
 }
 
-#middle-wrapper-width {
+ #middle-wrapper-width {
     display: flex;
 }
 
-#nav {
-    background-color:darkcyan;
+ #nav {
+    background-color: darkcyan;
     min-height: 50px;
     display: flex;
     
 }
 
-#nav > ul > button {
+ #nav > ul > button {
     text-align: center;
     padding: 15px 32px;
     margin: 0;
@@ -53,7 +53,7 @@ body {
     border-bottom: 2px solid #004eff;
 }
 
-.menu {
+ .menu {
     display: flex;
     background: #004fb2;
     justify-content: space-around;
@@ -61,95 +61,89 @@ body {
     margin: 0;
 }
 
-#middle-wrapper-width {
+ #middle-wrapper-width {
     display: flex;
 }
 
-#main-content-wrapper {
+ #main-content-wrapper {
     background-color: #fff;
 }
 
-#aside-content-wrapper {
+ #aside-content-wrapper {
     background-color: #fff;
     font-family: 'Lato', sans-serif;
     display: flex;
     margin-top: 50px;
 }
 
-footer {
+ footer {
     background-color: #004fb2;
     margin: 0;
 }
 
-midle-wrapper-width {
+ midle-wrapper-width {
     display: flex;
     font-family: 'Lato', sans-serif;
     max-width: 960px;
     margin: 0 auto;
 }
 
-footer > h1 {
+ footer > h1 {
     margin: 0;
 }
 
-#middle-wrapper {}
-
-.side-by-side {}
-
-.image-content > img {
+ .image-content > img {
     max-width: 200px;
     border-radius: 50px;
 }
 
-.image-content > h4 {
+ .image-content > h4 {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    color: C
+    color: C;
 }
 
-.image-content > h4 a {
+ .image-content > h4 a {
     color: #FF7B00;
 }
 
-.image-content > h4 a:hover {
+ .image-content > h4 a:hover {
     color: #00DAFF;
 }
 
-#main-content-wrapper article {}
-
-#main-content-wrapper article h2 {
+ #main-content-wrapper article h2 {
     text-align: center;
 }
 
-#main-content-wrapper article p {
+ #main-content-wrapper article p {
     max-width: 300px;
     margin: 0 auto;
 }
 
-#main-content-wrapper #skills {
+ #main-content-wrapper #skills {
     text-align: center;
     font-weight: 300;
     letter-spacing: 2px;
 }
 
-#main-content-wrapper #skills span {
+ #main-content-wrapper #skills span {
     text-align: center;
 }
 
-#aside-right {
+ #aside-right {
     margin: 0 50px 0 8px;
     width: 100%;
     font-weight: 300;
     
 }
 
-#aside-right h3 {
+ #aside-right h3 {
     text-align: center;
     font-weight: bold;
     
 }
 
-#featured-work {
+ #featured-work {
     list-style-type: none;
     background-image: url();
     font-size: 20px;
@@ -158,8 +152,7 @@ footer > h1 {
 
 
 
-#latest-work >li:before {
-    content: '';
+ #latest-work >li:before {
     border-color: transparent #008eef;
     border-style: solid;
     border-width: .35em 0 .35em .45em;
@@ -170,15 +163,15 @@ footer > h1 {
     top: .9em position: relative;
 }
 
-#favorite-sites {
+ #favorite-sites {
     text-align: center;
     display: block;
 }
 
-#favorite-sites ul {
+ #favorite-sites ul {
     list-style-type:none;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     margin: 0;
     padding: 40px;
     max-width: 400px;
@@ -186,7 +179,7 @@ footer > h1 {
     
 }
 
-#favorite-sites img {
+ #favorite-sites img {
     max-width: 400px;
     float: left;
     border-bottom: 5px;
@@ -195,34 +188,34 @@ footer > h1 {
     display: block;
 }
 
-#main-content-wrapper .image-content {
+ #main-content-wrapper .image-content {
     text-align: center;
     margin: 0 auto;
     margin-top: 50px;
 }
 
-.image-content > h4 {
+ .image-content > h4 {
     font-family: 'Lato', sans-serif;
     font-weight: 300px;
 }
 
-footer {
+ footer {
     background-color: coral;
     text-align: center;
     font-family: 'Lato', sans-serif;
     min-height: 100px;
 }
 
-footer > h1 {
+ footer > h1 {
     margin: 0;
     transform: translateY(50%)
 }
 
-.max-width {
+ .max-width {
     max-width: 960px;
     margin: 0 auto;
 }
-.image-content {
+ .image-content {
     margin-right: 75px;
     margin-left: 600px;
     display: flex;
@@ -231,7 +224,7 @@ footer > h1 {
     
     
 }
-#header > h2{
+ #header > h2{
     text-align: center;
     color: firebrick;
     padding: 0 91px 0 0;
@@ -241,15 +234,15 @@ footer > h1 {
 
 /*Bootsrap Related*/
 
-.container-fluid {
+ .container-fluid {
     padding: 0;
 }
 
-.img-modal {
+ .img-modal {
     text-align: center;
 }
 
-#favorite-sites > .row > .col-md-4 > img {
+ #favorite-sites > .row > .col-md-4 > img {
     margin: 0 auto;
     text-align: center;
     display: block;
@@ -258,8 +251,8 @@ footer > h1 {
 
 } 
 
-#header > img {
-    float:right;
+ #header > img {
+    float: right;
     border-radius: 200px;
 }
 
